@@ -13,26 +13,24 @@ constant: REPORTING_DATASET {
   export: override_required
 }
 
+constant: GCP_TABLE_NAME{
+  value:""
+}
+
+constant: AWS_TABLE_NAME{
+  value:""
+}
+
+constant: AZURE_TABLE_NAME{
+  value:""
+}
+
+
 constant: CLIENT {
   value: "Client ID"
   export: override_required
 }
 
-# By setting Sign Change value to 'yes', it's displayed as a positive number in income statement reports.
-constant: SIGN_CHANGE {
-  value: "yes"
-  export: override_required
-}
-
-
-constant: negative_format {
-  value: "{% if value < 0 %}<p style='color:red;'>{{rendered_value}}</p>{% else %} {{rendered_value}} {% endif %}"
-}
-
-constant: sign_change_multiplier {
-  value: "{% assign choice = '@{SIGN_CHANGE}' | downcase %}
-  {% if choice == 'yes' %}{% assign multiplier = -1 %}{% else %}{% assign multiplier = 1 %}{% endif %}"
-}
 
 
 

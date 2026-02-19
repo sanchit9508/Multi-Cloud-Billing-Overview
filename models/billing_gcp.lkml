@@ -29,3 +29,5 @@ persist_with: billing_default_datagroup
 
 include: "/LookML_Dashboard/*.dashboard.lookml"
 
+explore: gcp_focus_base_view
+expl
