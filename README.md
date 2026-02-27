@@ -7,3 +7,7 @@ Comprising of the following:
 * Resource Overview for resource level analysis
 
 For detailed information including content and installation instructions.
+
+
+Sample Dashboard for Data Extract deployed in Tableau Public 
+https://public.tableau.com/views/MulticloudBilling/BillingOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
