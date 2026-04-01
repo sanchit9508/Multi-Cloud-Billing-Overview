@@ -29,5 +29,10 @@ persist_with: billing_default_datagroup
 
 include: "/LookML_Dashboard/*.dashboard.lookml"
 
-explore: gcp_focus_base_view
-expl
+explore: gcp_focus_base_view{}
+explore: aws_focus_base_view{}
+explore: azure_focus_base_view{}
+explore: global_billing_focus {
+  label: "Global Multi-Cloud Cost & Usage"
+  description: "Unified view of AWS, Azure, and GCP spend using FOCUS 1.0"
+}
